@@ -22,9 +22,9 @@ jobs:
       # 构建 Docker 镜像
       - name: Build Docker Image
         run: |
-          docker build -t memorycollection/iptv:latest .
+          docker build -t a52948/iptv:latest .
 
       # 推送 Docker 镜像到 Docker Hub
       - name: Push Docker Image
         run: |
-          docker push memorycollection/iptv:latest
+          docker push a52948/iptv:latest
